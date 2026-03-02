@@ -1,0 +1,20 @@
+Churchill was a kindhearted man, and he wanted to give a cakewalk problem to the coders present, to warm them up.
+Given an array of N integers, print the product of the numbers present in the array.
+Use appropriate variable types to avoid overflow errors
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        for (int t = 0; t < T; t++) {
+            int N = sc.nextInt();
+            long product = 1;
+            for (int i = 0; i < N; i++) {
+                long num = sc.nextLong();
+                product = product * num;
+            }
+            System.out.println(product);
+        }
+    }
+}
