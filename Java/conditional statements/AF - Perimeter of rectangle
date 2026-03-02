@@ -1,0 +1,13 @@
+AF - Perimeter of rectangle
+Find the perimeter of a rectangle.
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int PerimeterofRectangle=2*(a+b);
+        System.out.println(PerimeterofRectangle);
+    }
+}
