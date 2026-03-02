@@ -1,0 +1,18 @@
+Chef’s phone shows a Battery Low notification if the battery level is 15% or less.Given that the battery level of Chef’s phone is X%, determine whether it would show a Battery low notification.
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int T=sc.nextInt();
+        for(int i=1;i<=T;i++){
+            int X=sc.nextInt();
+            if(X<=15){
+                System.out.println("Yes");
+            }
+            else{
+                System.out.println("No");
+            }
+        }
+    }
+}
